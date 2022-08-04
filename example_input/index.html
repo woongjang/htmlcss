@@ -60,5 +60,28 @@
         Venti
       </label>
     </fieldset>
+
+    <div>
+      <h2>select 태그</h2>
+      <select name="selectMenu" size="3" multiple>
+        <optgroup label="Fruits">
+          <option>Apple</option>
+          <option>Orange</option>
+          <option>Banana</option>
+          <option>Mango</option>
+        </optgroup>
+        <optgroup label="Coffee">
+          <option selected>latte</option>
+          <option>Coldbrew</option>
+        </optgroup>
+      </select>
+      <input type="text" list="fruits">
+      <datalist id="fruits">
+        <option>Apple</option>
+          <option>Orange</option>
+          <option>Banana</option>
+          <option>Mango</option>
+      </datalist>
+    </div>
   </body>
 </html>
