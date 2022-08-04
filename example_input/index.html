@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <form action="/login" id="login-form">
+      <input type="text" maxlength="10">
+      <input type="email" name="id">
+      <input type="password" name="pw">
+      <input type="submit" value="로그인">
+      <hr />
+      <input type="number" value="1234" readonly>
+      <input type="number" placeholder="숫자를 입력하세요!">
+      <input type="checkbox">
+      <input type="radio">
+      <input type="reset">
+    </form>
+    <form action="/login">
+      버튼을 이미지로
+      <input type="image" src="./heropy_small.png" alt="HEROPY">
+    </form>
+    <input type="text" autofocus form="login-form">
+  </body>
+</html>
