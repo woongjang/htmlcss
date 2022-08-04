@@ -1,0 +1,9 @@
+.section {
+  width: 100px;
+  color: red;
+  background-color: blue;
+}
+#main-section {
+  height: 200px;
+  position: relative;
+}

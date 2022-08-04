@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Global Attr</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div id="main-section"></div>
+    <!-- <div id="section"></div> -->
+    <script>
+      const section = document.querySelector('.section');
+      const sectionId = document.getElementById('main-section');
+    </script>
+    <div title="Title example">Title</div>
+    <h2 title="타이틀 제목입니다.">타이틀 제목</h2>
+    <p lang="en">asd</p>
+    <p lang="ko">ㅁㄴㅇ</p>
+    <div id="me" data-my-name="WON">WON</div>
+    <script>
+      const me = document.getElementById('me');
+      console.log(me.dataset.myName);
+    </script>
+
+    <div draggable="true">드래그</div>
+
+    <h2>Form hidden</h2>
+    <form id="hidden-form" action="/form-action" hidden>
+      <input type="text" name="id" value="WON"/>
+    </form>
+    <button form="hidden-form" type="submit">전송</button>
+  </body>
+</html>
