@@ -29,9 +29,21 @@
       <input type="checkbox" id="user-agreement" />
       <label for="user-agreement">동의하십니까?</label>
       <label><input type="checkbox" /> 동의하십니까?</label>
-      <label>
-        검색 <input type="search"/>
-      </label>
+      <label> 검색 <input type="search" /> </label>
+    </div>
+
+    <div>
+      <h2>버튼 요소</h2>
+      <input type="reset" value="초기화" />
+      <button type="reset">초기화</button>
+      <input type="submit" value="제출" />
+      <button type="submit">제출</button>
+      <button onclick="doit()">클릭하세요!</button>
+      <script>
+        function doit() {
+          alert('클릭했네요!');
+        }
+      </script>
     </div>
   </body>
 </html>
