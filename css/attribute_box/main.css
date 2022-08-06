@@ -25,3 +25,25 @@
   border: 4px solid;
   margin: 50%;
 }
+
+div.padding-box {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  padding: 20px;
+}
+
+div.calculate-padding-box {
+  width: 60px;
+  height: 80px;
+  background-color: red;
+  padding: 10px 20px;
+}
+
+div.auto-calculate-box {
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
