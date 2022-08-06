@@ -1,83 +1,22 @@
-a {
+ul {
+  list-style: none;
+  font-size: 40px;
+}
+ul.before li::before {
+  /* content: "숫자";
   font-weight: bold;
-  font-size: 20px;
-}
-
-a:hover {
-  font-weight: lighter;
-  font-size: 50px;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
+  color: red;
+  margin-right: 20px; */
+  content: "";
+  width: 30px;
+  height: 30px;
   background-color: tomato;
-  transition: 3s;
+  margin-right: 20px;
+  display: inline-block;
+  border-radius: 50%;
 }
 
-.box:hover {
-  width: 200px;
-  height: 200px;
+ul.after li::after {
+  content: url("https://heropy.blog/css/images/logo.png");
 }
 
-.box2 {
-  width: 100px;
-  height: 100px;
-  background-color: tomato;
-  transition: 0.4s;
-}
-.box2:active {
-  width: 200px;
-  background-color: yellowgreen;
-}
-
-input {
-  width: 100px;
-  outline: none;
-  border: 1px solid lightgray;
-  padding: 5px 10px;
-  transition: 0.4s;
-}
-
-input:focus {
-  border-color: red;
-  width: 200px;
-}
-
-.fruits li:first-child {
-  color: red;
-}
-
-.fruits li:last-child {
-  color: blue;
-}
-
-.fruits li:nth-child(2) {
-  color: yellow;
-}
-
-.fruits li:nth-child(2n) {
-  font-size: 30px;
-}
-
-/* .box-group div:nth-child(1) { */
-.box-group div:first-child {
-  color: red;
-  font-weight: bold;
-}
-
-/* .fruits2 p:nth-child(1) {
-  color: red;
-} */
-.fruits2 p:nth-of-type(1) {
-  color: red;
-}
-
-
-.fruits3 li:nth-of-type(1) {
-  color: red;
-}
-
-.fruits4 li:not(.strawberry) {
-  color: red;
-}
