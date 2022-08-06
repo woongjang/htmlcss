@@ -1,0 +1,26 @@
+.disabled {
+  opacity: 0.2;
+}
+
+[disabled] {
+  opacity: 0.5;
+  color: red;
+}
+
+[type="password"] {
+  font-size: 40px;
+}
+
+[value="1234"] {
+  color: red;
+}
+
+[class^="btn-"] {
+  font-weight: bold;
+  border-radius: 20px;
+  color: green;
+}
+
+[class$="danger"] {
+  color: yellowgreen
+}
