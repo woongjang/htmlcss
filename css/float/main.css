@@ -54,3 +54,11 @@ article .text {
   height: 250px;
   background-color: red;
 }
+
+span {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: tomato;
+  float: left;
+}
