@@ -1,0 +1,56 @@
+article {
+}
+
+article .picture {
+  width: 200px;
+  height: 150px;
+  background-color: tomato;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+article .text {
+  clear: left;
+}
+
+.box {
+  float: right;
+  width: 150px;
+  height: 100px;
+  background-color: tomato;
+  color: white;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.box4 {
+  width: 200px;
+  height: 150px;
+  background-color: orange;
+  clear: right;
+}
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.child {
+  float: left;
+}
+
+
+.float-box {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: orange;
+  float: left;
+}
+.new-box {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+}
