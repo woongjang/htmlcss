@@ -34,10 +34,10 @@
   background-color: tomato;
   border: 4px dashed red;
   border-radius: 10px;
-  flex-grow: 1;
-  flex-basis: 100px;
+  flex: 1;
+  /* flex: 1 1 0; */
 }
 
 .basis-container .item23 {
-  flex-grow: 2;
+  /* flex-grow: 2; */
 }
