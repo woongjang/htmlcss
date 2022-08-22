@@ -1,0 +1,24 @@
+.container {
+  border: 4px solid;
+  display: flex;
+}
+
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  border: 4px dashed red;
+  border-radius: 10px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item11 {
+  flex-grow: 1;
+}
+
+.item12 {
+  flex-grow: 2;
+}
