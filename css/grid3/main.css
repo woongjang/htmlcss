@@ -34,3 +34,14 @@ aside {
 footer {
   grid-area: footer;
 }
+
+.container2 {
+  border: 10px solid lightgray;
+  display: grid;
+  grid-template-rows: 100px 100px;
+  grid-template-columns: fit-content(300px) fit-content(300px);
+}
+
+.item {
+  border: 10px solid red;
+}
